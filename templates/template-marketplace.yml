@@ -1,0 +1,96 @@
+template:
+  name: "Template Marketplace Listing"
+  description: "A template for showcasing and selling your Notion templates"
+
+  page:
+    title: "{{template_name}} - Template Marketplace"
+    icon: "🛒"
+
+  blocks:
+    - type: "heading_1"
+      text: "{{template_name}}"
+
+    - type: "paragraph"
+      text: "{{template_description}}"
+
+    - type: "heading_2"
+      text: "✨ Features"
+
+    - type: "bulleted_list_item"
+      text: "Feature 1"
+
+    - type: "bulleted_list_item"
+      text: "Feature 2"
+
+    - type: "bulleted_list_item"
+      text: "Feature 3"
+
+    - type: "heading_2"
+      text: "🎯 Perfect For"
+
+    - type: "bulleted_list_item"
+      text: "Use case 1"
+
+    - type: "bulleted_list_item"
+      text: "Use case 2"
+
+    - type: "heading_2"
+      text: "📋 What's Included"
+
+    - type: "to_do"
+      text: "Main template page"
+      checked: false
+
+    - type: "to_do"
+      text: "Instructions and setup guide"
+      checked: false
+
+    - type: "to_do"
+      text: "Example content"
+      checked: false
+
+    - type: "heading_2"
+      text: "💰 Pricing"
+
+    - type: "paragraph"
+      text: "Price: ${{price}}"
+
+    - type: "paragraph"
+      text: "{{pricing_details}}"
+
+    - type: "heading_2"
+      text: "🚀 How to Use"
+
+    - type: "numbered_list_item"
+      text: "Duplicate this template"
+
+    - type: "numbered_list_item"
+      text: "Customize with your content"
+
+    - type: "numbered_list_item"
+      text: "Start using immediately"
+
+    - type: "heading_2"
+      text: "📸 Preview"
+
+    - type: "paragraph"
+      text: "Add screenshots or preview images here"
+
+    - type: "heading_2"
+      text: "💬 Reviews & Testimonials"
+
+    - type: "quote"
+      text: "Customer review or testimonial here"
+
+    - type: "heading_2"
+      text: "📞 Support"
+
+    - type: "paragraph"
+      text: "Need help? Contact us at {{support_email}}"
+
+    - type: "heading_2"
+      text: "📝 Terms"
+
+    - type: "paragraph"
+      text: "{{terms_and_conditions}}"
+

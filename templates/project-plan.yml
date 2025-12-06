@@ -1,0 +1,72 @@
+template:
+  name: "Project Plan Template"
+  description: "A comprehensive project planning template with goals, timeline, and tasks"
+
+  page:
+    title: "{{project_name}} - Project Plan"
+    icon: "📋"
+
+  blocks:
+    - type: "heading_1"
+      text: "Project Overview"
+
+    - type: "paragraph"
+      text: "Brief description of the project and its objectives."
+
+    - type: "heading_2"
+      text: "Goals"
+
+    - type: "bulleted_list_item"
+      text: "Primary goal 1"
+
+    - type: "bulleted_list_item"
+      text: "Primary goal 2"
+
+    - type: "bulleted_list_item"
+      text: "Primary goal 3"
+
+    - type: "heading_2"
+      text: "Timeline"
+
+    - type: "paragraph"
+      text: "Key milestones and deadlines:"
+
+    - type: "bulleted_list_item"
+      text: "Phase 1: Planning (Week 1-2)"
+
+    - type: "bulleted_list_item"
+      text: "Phase 2: Development (Week 3-6)"
+
+    - type: "bulleted_list_item"
+      text: "Phase 3: Testing & Launch (Week 7-8)"
+
+    - type: "heading_2"
+      text: "Tasks"
+
+    - type: "to_do"
+      text: "Task 1"
+      checked: false
+
+    - type: "to_do"
+      text: "Task 2"
+      checked: false
+
+    - type: "to_do"
+      text: "Task 3"
+      checked: false
+
+    - type: "heading_2"
+      text: "Resources"
+
+    - type: "paragraph"
+      text: "Links, documents, and other resources:"
+
+    - type: "bulleted_list_item"
+      text: "Resource 1"
+
+    - type: "heading_2"
+      text: "Notes"
+
+    - type: "paragraph"
+      text: "Additional notes and observations..."
+

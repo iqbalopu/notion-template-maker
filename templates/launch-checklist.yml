@@ -1,0 +1,235 @@
+template:
+  name: "Launch Checklist"
+  description: "Comprehensive pre-launch checklist for game releases"
+
+  page:
+    title: "{{game_name}} - Launch Checklist"
+    icon: "🚀"
+
+  blocks:
+    - type: "heading_1"
+      text: "🚀 Launch Checklist"
+
+    - type: "paragraph"
+      text: "Complete this checklist before launching {{game_name}}"
+
+    - type: "heading_2"
+      text: "📱 Store Listings"
+
+    - type: "to_do"
+      text: "App Store listing created and reviewed"
+      checked: false
+
+    - type: "to_do"
+      text: "Google Play listing created and reviewed"
+      checked: false
+
+    - type: "to_do"
+      text: "Steam store page created and reviewed"
+      checked: false
+
+    - type: "to_do"
+      text: "Store descriptions written and proofread"
+      checked: false
+
+    - type: "to_do"
+      text: "Screenshots prepared (minimum 5 per platform)"
+      checked: false
+
+    - type: "to_do"
+      text: "Trailer/video uploaded"
+      checked: false
+
+    - type: "to_do"
+      text: "App icon finalized"
+      checked: false
+
+    - type: "to_do"
+      text: "Age rating submitted"
+      checked: false
+
+    - type: "to_do"
+      text: "Pricing set correctly"
+      checked: false
+
+    - type: "heading_2"
+      text: "🎮 Game Build"
+
+    - type: "to_do"
+      text: "Final build tested on all target platforms"
+      checked: false
+
+    - type: "to_do"
+      text: "All critical bugs fixed"
+      checked: false
+
+    - type: "to_do"
+      text: "Performance optimized"
+      checked: false
+
+    - type: "to_do"
+      text: "Analytics integrated and tested"
+      checked: false
+
+    - type: "to_do"
+      text: "Crash reporting configured"
+      checked: false
+
+    - type: "to_do"
+      text: "Update mechanism tested"
+      checked: false
+
+    - type: "to_do"
+      text: "Save system tested and verified"
+      checked: false
+
+    - type: "heading_2"
+      text: "🔐 Legal & Compliance"
+
+    - type: "to_do"
+      text: "Privacy policy created and linked"
+      checked: false
+
+    - type: "to_do"
+      text: "Terms of service created"
+      checked: false
+
+    - type: "to_do"
+      text: "GDPR compliance verified (if applicable)"
+      checked: false
+
+    - type: "to_do"
+      text: "COPPA compliance verified (if applicable)"
+      checked: false
+
+    - type: "to_do"
+      text: "Third-party licenses verified"
+      checked: false
+
+    - type: "heading_2"
+      text: "📢 Marketing & PR"
+
+    - type: "to_do"
+      text: "Press kit prepared"
+      checked: false
+
+    - type: "to_do"
+      text: "Press release written"
+      checked: false
+
+    - type: "to_do"
+      text: "Social media accounts ready"
+      checked: false
+
+    - type: "to_do"
+      text: "Launch day content scheduled"
+      checked: false
+
+    - type: "to_do"
+      text: "Influencer outreach completed"
+      checked: false
+
+    - type: "to_do"
+      text: "Review copies sent to press"
+      checked: false
+
+    - type: "to_do"
+      text: "Community channels prepared (Discord, Reddit, etc.)"
+      checked: false
+
+    - type: "heading_2"
+      text: "💰 Monetization"
+
+    - type: "to_do"
+      text: "In-app purchases tested (if applicable)"
+      checked: false
+
+    - type: "to_do"
+      text: "Ads integration tested (if applicable)"
+      checked: false
+
+    - type: "to_do"
+      text: "Payment processing verified"
+      checked: false
+
+    - type: "to_do"
+      text: "Revenue tracking configured"
+      checked: false
+
+    - type: "heading_2"
+      text: "🌐 Platform-Specific"
+
+    - type: "heading_3"
+      text: "iOS"
+
+    - type: "to_do"
+      text: "App Store Connect setup complete"
+      checked: false
+
+    - type: "to_do"
+      text: "TestFlight beta testing completed"
+      checked: false
+
+    - type: "to_do"
+      text: "App Review Guidelines compliance verified"
+      checked: false
+
+    - type: "heading_3"
+      text: "Android"
+
+    - type: "to_do"
+      text: "Google Play Console setup complete"
+      checked: false
+
+    - type: "to_do"
+      text: "Internal testing completed"
+      checked: false
+
+    - type: "to_do"
+      text: "Content rating questionnaire completed"
+      checked: false
+
+    - type: "heading_3"
+      text: "Steam"
+
+    - type: "to_do"
+      text: "Steamworks SDK integrated"
+      checked: false
+
+    - type: "to_do"
+      text: "Steam achievements configured"
+      checked: false
+
+    - type: "to_do"
+      text: "Steam Cloud saves configured (if applicable)"
+      checked: false
+
+    - type: "to_do"
+      text: "Steam trading cards configured (if applicable)"
+      checked: false
+
+    - type: "heading_2"
+      text: "✅ Final Checks"
+
+    - type: "to_do"
+      text: "All team members reviewed checklist"
+      checked: false
+
+    - type: "to_do"
+      text: "Launch date confirmed"
+      checked: false
+
+    - type: "to_do"
+      text: "Support channels ready"
+      checked: false
+
+    - type: "to_do"
+      text: "Monitoring dashboards set up"
+      checked: false
+
+    - type: "heading_2"
+      text: "📝 Notes"
+
+    - type: "paragraph"
+      text: "Additional notes and reminders:"
+

@@ -1,0 +1,77 @@
+template:
+  name: "Meeting Notes Template"
+  description: "Structured template for capturing meeting notes"
+
+  page:
+    title: "{{meeting_topic}} - {{date}}"
+    icon: "📝"
+
+  blocks:
+    - type: "heading_1"
+      text: "Meeting Information"
+
+    - type: "bulleted_list_item"
+      text: "Date: {{date}}"
+
+    - type: "bulleted_list_item"
+      text: "Time: {{time}}"
+
+    - type: "bulleted_list_item"
+      text: "Attendees: {{attendees}}"
+
+    - type: "bulleted_list_item"
+      text: "Location: {{location}}"
+
+    - type: "heading_1"
+      text: "Agenda"
+
+    - type: "numbered_list_item"
+      text: "Agenda item 1"
+
+    - type: "numbered_list_item"
+      text: "Agenda item 2"
+
+    - type: "numbered_list_item"
+      text: "Agenda item 3"
+
+    - type: "heading_1"
+      text: "Discussion Points"
+
+    - type: "heading_2"
+      text: "Topic 1"
+
+    - type: "paragraph"
+      text: "Discussion notes..."
+
+    - type: "heading_2"
+      text: "Topic 2"
+
+    - type: "paragraph"
+      text: "Discussion notes..."
+
+    - type: "heading_1"
+      text: "Action Items"
+
+    - type: "to_do"
+      text: "Action item 1 - Owner: {{owner1}}"
+      checked: false
+
+    - type: "to_do"
+      text: "Action item 2 - Owner: {{owner2}}"
+      checked: false
+
+    - type: "heading_1"
+      text: "Decisions Made"
+
+    - type: "bulleted_list_item"
+      text: "Decision 1"
+
+    - type: "bulleted_list_item"
+      text: "Decision 2"
+
+    - type: "heading_1"
+      text: "Next Steps"
+
+    - type: "paragraph"
+      text: "Follow-up actions and next meeting date..."
+

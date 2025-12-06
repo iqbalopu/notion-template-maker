@@ -1,0 +1,57 @@
+template:
+  name: "Task Tracker Template"
+  description: "Simple task tracking template with priorities and status"
+
+  page:
+    title: "{{project_name}} - Task Tracker"
+    icon: "✅"
+
+  blocks:
+    - type: "heading_1"
+      text: "Task Tracker"
+
+    - type: "paragraph"
+      text: "Track and manage tasks for this project."
+
+    - type: "heading_2"
+      text: "High Priority"
+
+    - type: "to_do"
+      text: "High priority task 1"
+      checked: false
+
+    - type: "to_do"
+      text: "High priority task 2"
+      checked: false
+
+    - type: "heading_2"
+      text: "Medium Priority"
+
+    - type: "to_do"
+      text: "Medium priority task 1"
+      checked: false
+
+    - type: "to_do"
+      text: "Medium priority task 2"
+      checked: false
+
+    - type: "heading_2"
+      text: "Low Priority"
+
+    - type: "to_do"
+      text: "Low priority task 1"
+      checked: false
+
+    - type: "heading_2"
+      text: "Completed"
+
+    - type: "to_do"
+      text: "Completed task example"
+      checked: true
+
+    - type: "heading_2"
+      text: "Notes"
+
+    - type: "paragraph"
+      text: "Additional notes about tasks and progress..."
+

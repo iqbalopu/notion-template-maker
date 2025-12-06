@@ -1,0 +1,132 @@
+template:
+  name: "Patch Notes"
+  description: "Template for game update and patch release notes"
+
+  page:
+    title: "{{game_name}} - {{version}} Patch Notes"
+    icon: "📝"
+
+  blocks:
+    - type: "heading_1"
+      text: "{{version}} - Patch Notes"
+
+    - type: "paragraph"
+      text: "Release Date: {{release_date}}"
+
+    - type: "paragraph"
+      text: "Platform: {{platform}}"
+
+    - type: "heading_2"
+      text: "✨ New Features"
+
+    - type: "bulleted_list_item"
+      text: "Feature 1 description"
+
+    - type: "bulleted_list_item"
+      text: "Feature 2 description"
+
+    - type: "bulleted_list_item"
+      text: "Feature 3 description"
+
+    - type: "heading_2"
+      text: "🐛 Bug Fixes"
+
+    - type: "bulleted_list_item"
+      text: "Fixed issue description"
+
+    - type: "bulleted_list_item"
+      text: "Resolved crash when..."
+
+    - type: "bulleted_list_item"
+      text: "Fixed UI element positioning"
+
+    - type: "heading_2"
+      text: "⚡ Performance Improvements"
+
+    - type: "bulleted_list_item"
+      text: "Optimized loading times"
+
+    - type: "bulleted_list_item"
+      text: "Reduced memory usage"
+
+    - type: "bulleted_list_item"
+      text: "Improved frame rate stability"
+
+    - type: "heading_2"
+      text: "🎨 Visual Updates"
+
+    - type: "bulleted_list_item"
+      text: "Updated UI elements"
+
+    - type: "bulleted_list_item"
+      text: "Improved visual effects"
+
+    - type: "bulleted_list_item"
+      text: "Enhanced animations"
+
+    - type: "heading_2"
+      text: "🎮 Gameplay Changes"
+
+    - type: "bulleted_list_item"
+      text: "Balanced gameplay mechanic"
+
+    - type: "bulleted_list_item"
+      text: "Adjusted difficulty curve"
+
+    - type: "bulleted_list_item"
+      text: "Updated game mechanics"
+
+    - type: "heading_2"
+      text: "🔧 Technical Changes"
+
+    - type: "bulleted_list_item"
+      text: "Updated SDK version"
+
+    - type: "bulleted_list_item"
+      text: "Improved network stability"
+
+    - type: "bulleted_list_item"
+      text: "Enhanced security measures"
+
+    - type: "heading_2"
+      text: "📱 Platform-Specific"
+
+    - type: "heading_3"
+      text: "iOS"
+
+    - type: "bulleted_list_item"
+      text: "iOS-specific changes"
+
+    - type: "heading_3"
+      text: "Android"
+
+    - type: "bulleted_list_item"
+      text: "Android-specific changes"
+
+    - type: "heading_3"
+      text: "Steam"
+
+    - type: "bulleted_list_item"
+      text: "Steam-specific changes"
+
+    - type: "heading_2"
+      text: "⚠️ Known Issues"
+
+    - type: "bulleted_list_item"
+      text: "Known issue 1 - Workaround: ..."
+
+    - type: "bulleted_list_item"
+      text: "Known issue 2 - Will be fixed in next update"
+
+    - type: "heading_2"
+      text: "🙏 Thank You"
+
+    - type: "paragraph"
+      text: "Thank you for playing {{game_name}}! Your feedback helps us improve the game."
+
+    - type: "paragraph"
+      text: "Report bugs: {{bug_report_url}}"
+
+    - type: "paragraph"
+      text: "Join our community: {{community_url}}"
+

@@ -1,0 +1,136 @@
+template:
+  name: "Indie Game Studio OS"
+  description: "Complete operating system for indie game studios - manage projects, sprints, bugs, builds, marketing, and more"
+
+  page:
+    title: "{{studio_name}} - Game Studio OS"
+    icon: "🎮"
+
+  blocks:
+    - type: "heading_1"
+      text: "🎮 Indie Game Studio OS"
+
+    - type: "paragraph"
+      text: "Complete project management system for indie game development studios. Manage projects, sprints, bugs, builds, marketing, and store assets all in one place."
+
+    - type: "heading_2"
+      text: "📊 Databases Overview"
+
+    - type: "bulleted_list_item"
+      text: "Projects - Track all your game projects"
+
+    - type: "bulleted_list_item"
+      text: "Sprints - Manage development sprints and iterations"
+
+    - type: "bulleted_list_item"
+      text: "Bugs - Track and prioritize bugs"
+
+    - type: "bulleted_list_item"
+      text: "Builds - Version control and build management"
+
+    - type: "bulleted_list_item"
+      text: "Marketing Tasks - Marketing and promotion activities"
+
+    - type: "bulleted_list_item"
+      text: "Store Assets - Manage store listings and assets"
+
+    - type: "bulleted_list_item"
+      text: "Press Kit - Media assets and press materials"
+
+    - type: "heading_2"
+      text: "📋 Quick Links"
+
+    - type: "paragraph"
+      text: "Use the templates below to create your databases and pages:"
+
+    - type: "to_do"
+      text: "Create Projects database"
+      checked: false
+
+    - type: "to_do"
+      text: "Create Sprints database"
+      checked: false
+
+    - type: "to_do"
+      text: "Create Bugs database"
+      checked: false
+
+    - type: "to_do"
+      text: "Create Builds database"
+      checked: false
+
+    - type: "to_do"
+      text: "Create Marketing Tasks database"
+      checked: false
+
+    - type: "to_do"
+      text: "Create Store Assets database"
+      checked: false
+
+    - type: "to_do"
+      text: "Create Press Kit database"
+      checked: false
+
+    - type: "heading_2"
+      text: "🎯 Views to Create"
+
+    - type: "heading_3"
+      text: "By Platform"
+
+    - type: "paragraph"
+      text: "Filter databases by platform: iOS, Android, Steam"
+
+    - type: "heading_3"
+      text: "Release Roadmap"
+
+    - type: "paragraph"
+      text: "Timeline view of releases and milestones"
+
+    - type: "heading_3"
+      text: "Bugs by Priority"
+
+    - type: "paragraph"
+      text: "Prioritized bug tracking view"
+
+    - type: "heading_2"
+      text: "📝 Templates"
+
+    - type: "paragraph"
+      text: "Use the Launch Checklist and Patch Notes templates for releases:"
+
+    - type: "bulleted_list_item"
+      text: "Launch Checklist Template - Pre-launch verification"
+
+    - type: "bulleted_list_item"
+      text: "Patch Notes Template - Release notes format"
+
+    - type: "heading_2"
+      text: "🚀 Getting Started"
+
+    - type: "numbered_list_item"
+      text: "Create databases using the templates below"
+
+    - type: "numbered_list_item"
+      text: "Set up views for your workflow"
+
+    - type: "numbered_list_item"
+      text: "Link databases together using relations"
+
+    - type: "numbered_list_item"
+      text: "Customize templates for your studio"
+
+    - type: "heading_2"
+      text: "💡 Tips"
+
+    - type: "bulleted_list_item"
+      text: "Use relations to connect Projects → Sprints → Bugs"
+
+    - type: "bulleted_list_item"
+      text: "Create rollup properties to aggregate data"
+
+    - type: "bulleted_list_item"
+      text: "Use formulas for automatic calculations"
+
+    - type: "bulleted_list_item"
+      text: "Set up automations for recurring tasks"
+
