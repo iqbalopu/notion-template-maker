@@ -5,6 +5,8 @@ Automated Notion template maker - Create and manage Notion templates programmati
 ## 🚀 Features
 
 - ✅ Create Notion templates from YAML/JSON configuration files
+- ✅ **Automated daily generation** - Create 10 well-researched templates every day
+- ✅ **Focused on Software Management** - 13+ specialized templates for managing software
 - ✅ Duplicate existing templates
 - ✅ List available templates
 - ✅ Support for all major Notion block types
@@ -119,6 +121,25 @@ With custom parent page:
 ```bash
 notion-template list --parent-page-id your-page-id-here
 ```
+
+### Automated Daily Generation
+
+Automatically create 10 well-researched templates every day:
+
+```bash
+# Manual run
+npm run auto-generate
+
+# Or with custom options
+node dist/cli/index.js auto-generate --count 10
+```
+
+**Set up daily automation:**
+
+- **Windows**: Run `.\scripts\schedule-daily.ps1` (as Administrator)
+- **Linux/Mac**: Run `./scripts/schedule-daily.sh`
+
+For detailed setup instructions, see [AUTOMATED_DAILY_GENERATION.md](./AUTOMATED_DAILY_GENERATION.md).
 
 ## 📝 Template File Format
 

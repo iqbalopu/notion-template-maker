@@ -41,3 +41,8 @@ coverage/
 *.token
 notion-token.txt
 
+# Generated templates and history
+templates/generated/
+.notion-template-maker/
+logs/
+

@@ -11,6 +11,7 @@ import { createDuplicateCommand } from './commands/duplicate';
 import { createListCommand } from './commands/list';
 import { createInitCommand } from './commands/init';
 import { createGenerateCommand } from './commands/generate';
+import { createAutoGenerateCommand } from './commands/auto-generate';
 
 const program = new Command();
 
@@ -25,6 +26,7 @@ program.addCommand(createCreateCommand());
 program.addCommand(createDuplicateCommand());
 program.addCommand(createListCommand());
 program.addCommand(createGenerateCommand());
+program.addCommand(createAutoGenerateCommand());
 
 // Handle unknown commands
 program.on('command:*', () => {
